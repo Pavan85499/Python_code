@@ -38,7 +38,7 @@ def find_words_in_box(document_width, document_height, word_bounding_boxes, user
 document_width = 1000
 document_height = 1000
 
-# Example of word bounding boxes: word -> (width, height, left, top)
+# Example of word bounding boxes: word -> (width, height, left, top)    
 word_bounding_boxes = {
     "hello": (0.1, 0.05, 0.2, 0.3),
     "world": (0.1, 0.05, 0.4, 0.3),
